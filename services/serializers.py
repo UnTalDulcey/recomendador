@@ -6,9 +6,8 @@ from services.models import Category, Service
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = (
-            "name", "parent",
-        )
+        fields = "__all__"
+
 
 
 class ServiceSerializer(serializers.ModelSerializer):

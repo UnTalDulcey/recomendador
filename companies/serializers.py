@@ -8,7 +8,7 @@ class CompanySerializer(serializers.ModelSerializer):
     class Meta:
         model = Company
         exclude = (
-            "logo", "description", "site", "nit",
+            "logo", "description", "site"
         )
 
 class BranchCompanySerializer(serializers.ModelSerializer):
