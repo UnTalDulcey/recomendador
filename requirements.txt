@@ -1,4 +1,4 @@
-Django==2.2.13
+Django==2.2.20
 django-filter==2.3.0
 django-geoposition==0.3.0
 django-jet==1.0.8
